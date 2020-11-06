@@ -1,0 +1,9 @@
+source $HOME/AppData/Local/nvim/settings/main.vim
+source $HOME/AppData/Local/nvim/settings/NERDTree.vim
+source $HOME/AppData/Local/nvim/settings/Terminal.vim
+source $HOME/AppData/Local/nvim/settings/coc.vim
+source $HOME/AppData/Local/nvim/plugged/plugin.vim
+source $HOME/AppData/Local/nvim/theme/theme.vim
+source $HOME/AppData/Local/nvim/theme/airline.vim
+"source $HOME/AppData/Local/nvim/theme/devicon.vim
+source $HOME/AppData/Local/nvim/keys/keys.vim
