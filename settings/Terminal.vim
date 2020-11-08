@@ -7,10 +7,10 @@ tnoremap <Esc> <C-\><C-n>
 au BufEnter * if &buftype == 'terminal' | :startinsert | endif
 " open terminal on ctrl+n
 function OpenTerminal()
-  split 
+  tabnew 
   term
   startinsert
-  resize 10
+  "resize 10
 endfunction
 "nnoremap <C-n> :split<Cr> :resize 10<Cr> :term<Cr>i
 nnoremap <C-n> :call OpenTerminal()<Cr>
